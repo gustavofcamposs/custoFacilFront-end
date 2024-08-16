@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.teste{
+    height: 4vh;
+    width: 100%;
+    
+    border-bottom: 1px black solid ;
+}
+
+
+.header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 12vh;
+    width: 100%;
+}
+
+.main-background{
+    display: flex;
+
+    align-items: center;
+
+    height: 84vh;
+    width: 100%;
+
+    background-color: #F1EAE1;
+}
+
+.sing-in, .register-new-account{
+    height: 85%;
+    width: 350px;
+
+    margin-left: 15px;
+
+    background-color: #FDFDFE;
+}
