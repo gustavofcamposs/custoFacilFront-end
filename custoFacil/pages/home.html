@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/login/login.css">
     <link rel="stylesheet" href="../style/login/login-responsivo.css">
     <title>custoFácil</title>
@@ -10,11 +11,24 @@
 <body>
     <div class="teste"></div>
     <header class="header">
-        <img src="../image/Off-White-Logo.png" alt="Logo da empresa Custo Fácil"  height="110px" width="200px">
+        <img src="../image/Off-White-Logo.png" alt="Logo da nossa empresa" class="header__logo">
     </header>
-    <main class="main-background">
-        <section class="sing-in"></section> 
-        <section class="register-new-account"></section>
+
+    <main class="main-container">
+        <div class="box-container">
+            <section class="section-sign-in">
+                <div class="titulo">
+                    <h2>Sign in to your account</h2>
+                </div>
+                <form class="container-realizar-login" action="/meu-ednpoint" method="post">
+                    <input class="input-style" type="email" placeholder="Email Address">
+                    <input class="input-style" type="password" placeholder="Password">
+                </form>
+            </section>
+            <section class="section-new-account">
+
+            </section>
+        </div>
     </main>
 </body>
 </html>

@@ -1,39 +1,45 @@
-@media (max-width: 1022px) {
-    .main-background{
-        background-color: green;
+@media (max-width: 1250px){
+    .box-container{
+        width: 84%;
+        background-color: blueviolet;
     }
 
-    .sing-in, .register-new-account{
-        width: 50%;
-    }
-
-    .sing-in{
-        margin-left: 0;
+    .section-sign-in, .section-new-account{
+        width: 45%;
+        margin-left: 18px;
     }
 
 }
 
-
-@media (max-width: 770px) {
-
-    .main-background{
-        background-color: red;
-        padding: 136px 15px;
-        flex-direction: column;
-        height: 100vh;
+@media (max-width: 1024px){
+    .box-container{
+        width: 100%;
         justify-content: space-around;
+        background-color: aquamarine;
     }
 
-    .sing-in, .register-new-account{
-        margin-left: 0; /*Limpando a margin para ficar centralizado*/
-        width: 95%;
+    .section-sign-in, .section-new-account{
+        margin-left: 0px; /*Necessário para tirar a margin de 18px colocado acima, para que eles fiquem alinhados conforme o box-container*/
+    }
+}
+
+/*A partir daqui, as caixas de Login e Cadastro ficarão uma embaixo da outra.*/
+@media (max-width: 768px){
+    .box-container{
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 1.5rem;
     }
 
-    .sing-in{
-        height: 265px;
+    .section-sign-in, .section-new-account{
+        width: 100%;
     }
 
-    .register-new-account{
-        height: 350px;
+    .section-sign-in{
+        height: 25%;
+    }
+
+    .section-new-account{
+        height: 40%;
     }
 }
