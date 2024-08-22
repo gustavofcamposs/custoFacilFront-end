@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../style/login/login-responsivo.css">
     <title>custoFácil</title>
 </head>
+
 <body>
     <div class="teste"></div>
     <header class="header">
@@ -17,13 +19,22 @@
     <main class="main-container">
         <div class="box-container">
             <section class="section-sign-in">
+
                 <div class="titulo">
                     <h2>Sign in to your account</h2>
+                    <h2></h2>
+                    <h2></h2>
                 </div>
+
                 <form class="container-realizar-login" action="/meu-ednpoint" method="post">
-                    <input class="input-style" type="email" placeholder="Email Address">
-                    <input class="input-style" type="password" placeholder="Password">
+                    <input type="text" autocomplete="off" name="text" class="input" placeholder="Username">
+                    <input type="password" autocomplete="off" name="text" class="input" placeholder="Password">
                 </form>
+
+                <div class="botao-container">
+                    <button class="botao">Login</button>
+                </div>
+
             </section>
             <section class="section-new-account">
 
@@ -31,4 +42,5 @@
         </div>
     </main>
 </body>
+
 </html>
