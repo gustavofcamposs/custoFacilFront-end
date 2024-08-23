@@ -22,12 +22,10 @@
 
                 <div class="titulo">
                     <h2>Sign in to your account</h2>
-                    <h2></h2>
-                    <h2></h2>
                 </div>
 
                 <form class="container-realizar-login" action="/meu-ednpoint" method="post">
-                    <input type="text" autocomplete="off" name="text" class="input" placeholder="Username">
+                    <input type="email" autocomplete="off" name="text" class="input" placeholder="Username">
                     <input type="password" autocomplete="off" name="text" class="input" placeholder="Password">
                 </form>
 
@@ -37,6 +35,22 @@
 
             </section>
             <section class="section-new-account">
+
+                <div class="titulo">
+                    <h2>Register a new account</h2>
+                </div>
+
+                <form class="container-criar-conta" action="/meu-endpoint" method="post">
+                    <input type="text" autocomplete="off" name="text" class="input" placeholder="Username">
+                    <input type="email" autocomplete="off" name="text" class="input" placeholder="E-mail">
+                    <input type="tel" autocomplete="off" name="text" class="input" placeholder="Telefone">
+                    <input type="password" autocomplete="off" name="text" class="input" placeholder="Senha">
+                    <input type="password" autocomplete="off" name="text" class="input" placeholder="Confirmar senha">
+                </form>
+
+                <div class="botao-container">
+                    <button class="botao">Create account</button>
+                </div>
 
             </section>
         </div>
