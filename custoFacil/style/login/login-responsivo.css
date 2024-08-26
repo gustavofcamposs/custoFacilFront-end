@@ -58,7 +58,7 @@
         }
 
         & .container-realizar-login{
-            height: 45%;
+            height: 60%;
         }
 
         & .botao-container{
@@ -67,8 +67,17 @@
     }
 
     .section-new-account{
-        height: 45%;
+        background-color: red;
+        height: 60%;
         width: 90%;
+
+        & .container-criar-conta{
+            height: 100%;
+        }
+
+        & input{
+            width: 90%;
+        }
     }
 
 }
